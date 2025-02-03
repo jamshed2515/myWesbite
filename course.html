@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Future Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+</section>
+
+
+<!-- --------  Courses -------- -->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>The pain is very painful, the adipiscing is very good.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Our Intermediate program (Classes 11 & 12) is designed to provide students with a strong academic foundation 
+                while preparing them for higher education and career opportunities. We offer Science, Commerce, and Arts streams, 
+                with a well-structured curriculum, expert faculty, and modern teaching methodologies.
+                 Our focus is on holistic development, combining academics with practical learning, 
+                 skill-building activities, and career guidance to ensure students excel in their chosen paths.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Our Degree programs offer a comprehensive and career-oriented curriculum, 
+                equipping students with in-depth knowledge and practical skills in their chosen field. 
+                With experienced faculty, industry exposure, and hands-on learning, 
+                we ensure that students are well-prepared for professional careers or further studies. Our focus on research, 
+                innovation, and skill development helps students build a strong foundation for success in their respective industries.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>Our Postgraduate programs are designed for students who seek advanced knowledge, specialization, 
+                and research opportunities in their field of study. With a rigorous academic framework, 
+                expert mentorship, and industry collaborations, we prepare students for leadership roles, 
+                research endeavors, and professional excellence. The curriculum emphasizes critical thinking, innovation, 
+                and practical applications, ensuring graduates are ready to excel in a competitive global environment.</p>
+            
+        </div>
+    </div>
+
+</section>
+
+
+<!-- -------facilities----- -->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>We offer modern classrooms, well-equipped labs, a digital library, 
+        and sports facilities to enhance learning. Our campus ensures a safe, comfortable, 
+        and innovative environment for students' overall development.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="">
+            <h3>World Class Library</h3>
+            <p>Our library features a vast collection of books, 
+                digital resources, and research materials. It provides a quiet, 
+                well-equipped space for study and knowledge enhancement.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="">
+            <h3>Largest Play Ground</h3>
+            <p>Our playground offers spacious, 
+                well-maintained areas for various sports and activities. 
+                It promotes fitness, teamwork, and overall student well-being.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Our cafeteria serves tasty, healthy, and hygienic food to ensure students' well-being. 
+                It offers a variety of nutritious meals in a clean and comfortable setting.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-----Footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are dedicated to providing quality education and fostering holistic development in students. 
+        Our school focuses on academic excellence, <br>personal growth, and preparing students for future success.
+         With experienced faculty and modern facilities, we strive to create a nurturing and innovative learning environment.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by ~Sheikh</p>
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
